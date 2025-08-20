@@ -14,7 +14,7 @@ public class Exercise5 {
         do {
             guessCount++;
             try {
-                System.out.print("Your guess :): ");
+                System.out.print("Your guess: ");
                 int guess = Integer.parseInt(System.console().readLine());
                 if (guess == number) {
                     System.out.println("Congratulations! You guessed correctly in " + guessCount + " guesses.");
